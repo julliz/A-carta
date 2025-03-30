@@ -1,0 +1,46 @@
+body {
+    font: normal 16px times;
+    background-color: #c9bff7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+.carta {
+    background-color: #e0dcfa;
+    width: 600px;
+    height: 550px;
+    border-radius: 30px;
+    border: 1.5px;
+    box-shadow: #000000 2px 3px 7px 0px;
+    padding: 30px;
+    text-align: justify;
+    line-height: 2.5;
+}
+.carta p {  
+    text-indent: 30px;
+    color: #252A29;
+}
+.carta .assinatura {
+    text-align: right;
+    font-weight: bold
+}
+footer{
+    margin-top: -50px;
+    text-align: center;
+ 
+ }
+ a.botao1{
+    background-color: #252A29;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    height: 800vh ;
+ }
+ a.botao1:hover{
+    background-color: #a89cdf;
+    padding: 15px;    
+}
